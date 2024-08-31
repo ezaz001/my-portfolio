@@ -22,7 +22,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-          <Header />
+      <Header />
     </>
   );
 };
