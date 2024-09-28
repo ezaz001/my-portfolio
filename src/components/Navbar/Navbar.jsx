@@ -26,20 +26,17 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#Experience"
+              href="#Skill"
               onClick={(e) => {
                 e.preventDefault();
-                const section = document.getElementById("Experience");
+                const section = document.getElementById("Skill");
                 if (section) {
                   section.scrollIntoView({ behavior: "smooth" });
                 }
               }}
             >
-              Experiences
+              Skills
             </a>
-          </li>
-          <li>
-            <a href="http://">skills</a>
           </li>
           <li>
             <a href="http://">projects</a>

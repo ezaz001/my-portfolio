@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   return (
@@ -9,7 +10,18 @@ const Header = () => {
         <div data-aos="fade-right" className="heading-container">
           <h3>Hi, I'm,</h3>
           <h1>EZAZ MAJUMDER</h1>
-          <h2>-Front-End Developer</h2>
+          <h2>
+            <Typewriter
+              options={{
+                strings: ["-Front-End Developer"],
+                autoStart: true,
+                loop: true,
+                delay: 100,
+                deleteSpeed: 50,
+                cursor: "|",
+              }}
+            />
+          </h2>
           <p>
             I specialize in building interactive, user-friendly, and responsive
             web applications. With a strong foundation in HTML, CSS, and
