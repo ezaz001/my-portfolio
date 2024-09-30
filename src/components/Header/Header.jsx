@@ -10,13 +10,13 @@ const Header = () => {
         <div data-aos="fade-right" className="heading-container">
           <h3>Hi, I'm,</h3>
           <h1>EZAZ MAJUMDER</h1>
-          <h2>
+          <h2><strong>-</strong>
             <Typewriter
               options={{
-                strings: ["-Front-End Developer"],
+                strings: ["Front-End Developer", "UI/UX Designer"],
                 autoStart: true,
                 loop: true,
-                delay: 100,
+                delay: 90,
                 deleteSpeed: 50,
                 cursor: "|",
               }}
